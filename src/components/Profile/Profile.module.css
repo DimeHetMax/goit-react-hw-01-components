@@ -1,0 +1,73 @@
+.avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #b15252;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.profile{
+    background: rgb(231 236 242);
+    padding: 20px 30px;
+    margin: 0 auto;
+    max-width: 330px;
+}
+.description{
+    background: white;
+    width: 200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px -2px 6px rgb(0 0 0 / 16%);
+}
+.text{
+    text-align: center;
+}
+.name{
+    color: rgb(47 60 76);
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.tag{
+    color: rgb(138 153 166);
+    margin-bottom: 10px;
+}
+.location{
+    color: rgb(138 153 166);
+}
+.stats{
+    background-color: rgb(243 246 249);
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px -2px 6px rgb(0 0 0 / 16%);
+}
+
+.statsListItem{
+    display: grid;
+    width: 78px;
+    padding: 20px 0px;
+    border: 1px solid rgb(0 0 0 / 12%);
+   
+}
+.left{
+    border-bottom-left-radius: 10px;
+}
+.right{
+    border-bottom-right-radius: 10px;
+}
+.label{
+    color:rgb(138 153 166);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.quantity{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}

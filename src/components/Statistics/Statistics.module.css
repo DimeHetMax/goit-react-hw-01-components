@@ -1,0 +1,35 @@
+.statistics{
+    padding: 30px;
+    background: rgb(231 236 242);
+    margin: 0 auto;
+    max-width: 330px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 20px;
+}
+.statList{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.item{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
+
+.label{
+    margin: 0 auto;
+    margin-bottom: -20px;
+}
+.percentage{
+    margin: 0 auto;
+}
+.title{
+    color: rgb(86 95 103);
+    text-align: center;
+    background: white;
+    padding: 20px 10px;
+}

@@ -6,7 +6,6 @@ import user from '../user.json';
 import data from '../data.json';
 import friends from '../friends.json'
 import transactions from '../transactions.json';
-console.log(data)
 
 export const App = () => {
   return (

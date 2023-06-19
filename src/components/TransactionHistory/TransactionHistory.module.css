@@ -1,0 +1,23 @@
+.transactionHistory{
+    margin: 0 auto;
+    max-width: 330px;
+}
+.transactionTr{
+    background-color: rgb(43 188 212);
+    color: rgb(218 250 255);
+    text-transform: uppercase;
+}
+
+.transactionTh{
+    width: 110px;
+    padding: 10px 0;
+}
+.text{
+    text-align: center;
+}
+.background{
+    background-color: rgb(236 241 244);
+}
+.transactionTd{
+    padding: 10px 0;
+}

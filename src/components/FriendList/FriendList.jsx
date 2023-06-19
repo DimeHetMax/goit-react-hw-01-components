@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types'; 
 import {FriendListItem} from './FriendListItem'
+import css from './FriendList.module.css';
 
 export const FriendList = ({friendsArray}) =>{
     return(
-        <ul className="friend-list">
+        <ul className={css.friendList}>
             {friendsArray.map(friend=>(
-            <li className="item" key={friend.id}>
+            <li className={css.item} key={friend.id}>
                 <FriendListItem  
                     img = {friend.avatar}
                     nameAvatar = {friend.name}
@@ -16,6 +17,6 @@ export const FriendList = ({friendsArray}) =>{
         </ul>
     )
 }
-FriendList.prototype ={
+FriendList.protoType ={
     friends: PropTypes.arrayOf(PropTypes.object),
 }
