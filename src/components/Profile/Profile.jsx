@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'; 
+import {generateRandomColor} from "components/utils/generateRandomColor"
 import css from './Profile.module.css';
 
 export const Profile = ({
@@ -8,10 +9,12 @@ export const Profile = ({
     avatar = "https://cdn-icons-png.flaticon.com/512/1077/1077012.png",
     stats
     })=>{
+    const randomColor = generateRandomColor();
     return (
         <div className={css.profile}>
             <div className={css.description}>
                 <img
+                style={{ background: randomColor }}
                 src={avatar}
                 alt={username}
                 className={css.avatar}
